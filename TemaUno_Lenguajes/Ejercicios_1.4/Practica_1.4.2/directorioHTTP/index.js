@@ -18,7 +18,7 @@ app.put('/usuario/actualizar', (req, res) => {
     res.sendStatus(200);
 })
 
-app.patch('/usuario/modificar', (req, res) => {
+app.delete('/usuario/modificar', (req, res) => {
     console.log('Modificacion exitosa');
     res.sendStatus(200);
 })
