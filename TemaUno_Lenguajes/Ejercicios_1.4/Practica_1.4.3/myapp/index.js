@@ -22,8 +22,6 @@ app.post("/submit", (req,res) => {
     res.send("Datos recibidos")
 });
 
-
-
 app.listen(port, () => {
     console.log(`Hola el servidor se esta ejecutando en el puerto numero: ${port}`);
 });

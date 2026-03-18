@@ -23,7 +23,7 @@ app.patch('/usuario/modificar', (req, res) => {
     res.sendStatus(200);
 })
 
-app.patch('/usuario/eliminar', (req, res) => {
+app.delete('/usuario/eliminar', (req, res) => {
     console.log('Eliminación exitosa');
     res.sendStatus(200);
 })
