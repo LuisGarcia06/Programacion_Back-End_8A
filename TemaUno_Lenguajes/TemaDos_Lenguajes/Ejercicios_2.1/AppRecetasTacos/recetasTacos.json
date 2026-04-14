@@ -1,0 +1,114 @@
+[
+  {
+    "id": "0001",
+    "tipo": "taco",
+    "nombre": "Taco de Cochinita Pibil",
+    "precio": 25.00,
+    "ingredientes": {
+      "proteina": {
+        "nombre": "Puerco",
+        "preparacion": "Pibil (horneado en hoja de plátano con achiote)"
+      },
+      "salsa": {
+        "nombre": "Habanero asado",
+        "picor": "Muy alto"
+      },
+      "acompañamientos": [
+        {
+          "nombre": "Cebolla morada encurtida",
+          "cantidad": "2 cucharadas",
+          "ingredientes": ["Cebolla morada", "Naranja agria", "Limón", "Sal", "Orégano"]
+        },
+        {
+          "nombre": "Frijoles negros colados",
+          "cantidad": "1 cucharada",
+          "ingredientes": ["Frijol negro", "Epazote", "Sal", "Manteca"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0002",
+    "tipo": "taco",
+    "nombre": "Taco de Poc Chuc",
+    "precio": 28.00,
+    "ingredientes": {
+      "proteina": {
+        "nombre": "Cerdo",
+        "preparacion": "Asado a las brasas marinado en naranja agria"
+      },
+      "salsa": {
+        "nombre": "Tomate asado con habanero",
+        "picor": "Alto"
+      },
+      "acompañamientos": [
+        {
+          "nombre": "Cebolla asada",
+          "cantidad": "2 cucharadas",
+          "ingredientes": ["Cebolla blanca", "Naranja agria", "Sal", "Cilantro"]
+        },
+        {
+          "nombre": "Guacamole yucateco",
+          "cantidad": "1 cucharada",
+          "ingredientes": ["Aguacate", "Tomate", "Cilantro", "Limón", "Sal", "Chile habanero"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0003",
+    "tipo": "taco",
+    "nombre": "Taco de Relleno Negro",
+    "precio": 30.00,
+    "ingredientes": {
+      "proteina": {
+        "nombre": "Pavo",
+        "preparacion": "Guisado en chilmole negro con especias mayas"
+      },
+      "salsa": {
+        "nombre": "Chilmole",
+        "picor": "Medio"
+      },
+      "acompañamientos": [
+        {
+          "nombre": "Espelón",
+          "cantidad": "2 cucharadas",
+          "ingredientes": ["Frijol espelón", "Epazote", "Sal", "Cebolla", "Manteca"]
+        },
+        {
+          "nombre": "Xnipec",
+          "cantidad": "1 cucharada",
+          "ingredientes": ["Cebolla morada", "Habanero", "Naranja agria", "Cilantro", "Sal"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0004",
+    "tipo": "taco",
+    "nombre": "Taco de Tikin Xic",
+    "precio": 35.00,
+    "ingredientes": {
+      "proteina": {
+        "nombre": "Pescado",
+        "preparacion": "Asado en hoja de plátano con achiote y naranja agria"
+      },
+      "salsa": {
+        "nombre": "Tomate verde con habanero",
+        "picor": "Medio"
+      },
+      "acompañamientos": [
+        {
+          "nombre": "Cebolla encurtida con rábano",
+          "cantidad": "2 cucharadas",
+          "ingredientes": ["Cebolla morada", "Rábano", "Naranja agria", "Orégano", "Sal"]
+        },
+        {
+          "nombre": "Aguachile yucateco",
+          "cantidad": "1 cucharada",
+          "ingredientes": ["Pepino", "Limón", "Habanero", "Cilantro", "Sal", "Cebolla morada"]
+        }
+      ]
+    }
+  }
+]
