@@ -68,3 +68,4 @@ console.log(`(${a} + ${b})² = ${potenciaResult}`);
 
 let promedioCalif = matematicas.promedio([85, 90, 78, 92, 88]);
 console.log(`Promedio de calificaciones: ${promedioCalif.toFixed(2)}`);
+

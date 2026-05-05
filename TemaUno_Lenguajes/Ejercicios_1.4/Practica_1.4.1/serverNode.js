@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
 );
 
 server.listen(port, hostname, () => {
-    console.log(`Servidor ejecutandose en en http://${hostname}:${port}/`);
+    console.log(`Servidor del archivo serverNode.js corriendo en http://${hostname}:${port}/`);
 });
 
 

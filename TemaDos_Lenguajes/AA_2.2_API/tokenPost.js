@@ -1,3 +1,4 @@
+//Sexto ejercicio ok
 import axios from "axios";
 
 const registrarAuth = async () => {

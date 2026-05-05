@@ -1,3 +1,4 @@
+//Quinto ejercicio ok
 import express from "express";
 import bodyParser from "body-parser";
 import path from 'path';
@@ -32,3 +33,4 @@ app.get('/receta/:type', (req, res) => {
 app.listen(port, () => {
   console.log("Servidor ejecutandose en http://localhost:3000");
 });
+

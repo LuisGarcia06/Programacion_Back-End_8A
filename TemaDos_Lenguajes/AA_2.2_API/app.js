@@ -1,4 +1,4 @@
-//Segundo ejercicio
+//Segundo ejercicio ok
 
 import axios from 'axios'
 

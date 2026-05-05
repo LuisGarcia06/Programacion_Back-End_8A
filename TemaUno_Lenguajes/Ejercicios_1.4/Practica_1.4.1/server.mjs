@@ -25,5 +25,5 @@ const server = createServer((req, res) => {
 // Pone el servidor a escuchar en el puerto y hostname definidos
 // El callback se ejecuta una sola vez cuando el servidor está listo
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+  console.log(`Servidor del archivo server.mjs corriendo en http://${hostname}:${port}/`);
 });

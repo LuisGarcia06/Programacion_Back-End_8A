@@ -18,9 +18,8 @@ app.set('views', path.join(__dirname, '../views'));
 app.set('view engine', 'ejs');
 
 //GET
-app.get('/', async (req, res) => {
-    try {
-        const result = await axios.get('https://api.animechan.io/v1/quotes/random');
+app.get('/', async (req, res) => { 
+    try { const result = await axios.get('https://api.animechan.io/v1/quotes/random');
         const quote = result.data.data.content;            
         const character = result.data.data.character.name; 
         const anime = result.data.data.anime.name;         
@@ -31,12 +30,13 @@ app.get('/', async (req, res) => {
             anime: anime,
         });
 
-        console.log(result.data);
+        console.log(result.data);}              
+       
 
 
 
 //Manejo de errores 
-    } catch (error) {
+     catch (error) {
         if (error.response) {
             console.log(error.response.data);
         }else {

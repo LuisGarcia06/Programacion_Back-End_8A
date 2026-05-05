@@ -1,4 +1,4 @@
-//Tercer ejercicio 
+//Tercer ejercicio ok
 
 
 import axios from "axios";
@@ -12,7 +12,7 @@ const registrarUsuarios = async () => {
                 password: 'pistol'
             },
             {
-                headers: {                    // 👈 minúscula
+                headers: {                    
                     'x-api-key': 'pro_de6f710875daa58cf161641215caaeb26488c48dd21fe3ad33fbb9a4cb843b1f' // 👈 dos puntos :
                 }
             }

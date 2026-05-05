@@ -1,3 +1,4 @@
+//Tercer ejecicio ok
 const objetoJavaScript = {
     nombre: "Taco de Pollo",
     ingredientes: {
